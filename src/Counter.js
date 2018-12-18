@@ -20,7 +20,7 @@ export default class Counter extends Component {
       <div className="counter-container">
         <h2>Counter</h2>
         <h3>Count: {counter}</h3>
-        <button onClick={this.increment}>Increment</button>
+        <button onClick={() => this.increment()}>Increment</button>
       </div>
     );
   }
