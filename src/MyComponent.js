@@ -26,7 +26,8 @@ export default class MyComponent extends Component {
 
   render() {
     const { data, error, isPosting } = this.state;
-    
+    console.log(data)
+
     return (
       <div className="my-component-container">
         <h2>My Component</h2>
